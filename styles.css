@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.container {
+    padding: 20px;
+    border: 1px solid #bde7dd;
+    border-radius: 5px;
+    background-color: #51b5ae;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#passwordInput{
+    height: 30px;
+    width: auto;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
